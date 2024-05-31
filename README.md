@@ -1,6 +1,6 @@
 # PyTorch Basics
 
-Welcome, the purpose of this repo is to help you get familiar with PyTorch. I'll be summarizing and providing steps based on the PDF book Dr. Pengo provided to help you start using PyTorch effectively.
+Welcome, the purpose of this repo is to help you get familiar with PyTorch. I'll be summarizing and providing steps based on the PDF book Dr. Peng provided to help you start using PyTorch effectively.
 
 ## Prerequisites
 
