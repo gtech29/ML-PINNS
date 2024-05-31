@@ -12,4 +12,3 @@ In this module, I wrote down the different ways of creating a sensor that are di
 
     * Note:
       * **`t_b = torch.from_numpy(b)`** : This converts the NumPy array `b` into a PyTorch tensor `t_b`. The `from_numpy` function creates a tensor that shares memory with the original NumPy array, meaning changes to the tensor will also affect the NumPy array and vice versa
-* **Creating a Tensor**
