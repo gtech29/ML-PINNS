@@ -49,7 +49,7 @@ We encourage team members to contribute to the project. Here are some guidelines
 
 For discussions and updates, please use the following channels:
 
-- **Discord: **
+- **Discord: ** https://discord.gg/eduwkXNP
 - **Email**: [team-email@domain.com](mailto:team-email@domain.com)
 
 ## Acknowledgments
