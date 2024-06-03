@@ -26,8 +26,8 @@ To get started with this repository, please follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/gtech29/PINNs_Research.git
+   cd PINNs_Research
    ```
 2. **Install the required dependencies**:
 
