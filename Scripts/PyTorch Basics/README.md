@@ -27,6 +27,5 @@ For those setting up your environment locally, I recommend using Visual Studio C
 
 To install the latest version of PyTorch, follow these steps:
 
-1. Open a terminal or command prompt.
-2. Run the following command to install PyTorch and torchvision:
-   * pip install torch torchvision torchaudio
+1. Go to https://pytorch.org/get-started/locally/
+2. Select your preferences based on your system requirements and run the install command.
