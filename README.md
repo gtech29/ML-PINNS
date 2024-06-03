@@ -57,7 +57,3 @@ For discussions and updates, please use the following channels:
 We would like to thank our team members for their contributions and dedication to this project.
 
 Happy collaborating!
-
----
-
-Feel free to customize this README as needed to better fit the specifics of your project and team.
