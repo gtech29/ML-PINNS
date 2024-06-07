@@ -1,3 +1,2 @@
-/new_venv
-/.venv
-/sklearn-env
+venv
+sklearn-env

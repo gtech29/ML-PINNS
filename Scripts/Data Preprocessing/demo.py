@@ -24,7 +24,7 @@ class Model(nn.Module):
 # Pick a manual seed for randomization
 torch.manual_seed(41)
 # Create an instance of the model
-# model = Model()
+model = Model()
 
 # Load the data
 url = "https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv"
@@ -43,4 +43,20 @@ y = my_df["species"]
 X = X.values
 y = y.values
 
-print(X, "\n", y)
+# train, test split
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=41)
+
+# Convert X features to float tensors
+X_train= torch.FloatTensor(X_train)
+X_test = torch.FloatTensor(X_test)
+
+# Convert y labels to tensor long
+y_train = torch.LongTensor(y_train)
+y_test = torch.LongTensor(y_test)
+
+# Set criterion of model to measure error, how far off predictions are from data
+criterion = nn.CrossEntropyLoss()
+# Choose Optimizer (Adam), set learning rate ( if error doesnt go down after a bunch of epochs, we might lower learning rate)
+optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
+
